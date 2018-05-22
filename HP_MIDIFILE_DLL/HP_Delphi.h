@@ -81,3 +81,16 @@ void EXPORTCALL DELPHI_HP_PlayLyMonitor(DELPHI_PTR delphi_ptr, char* lyric_text)
 }
   
 #endif
+
+/* DELPHI TEST 1
+
+   DelphiHp := NewDelphiHp;
+   try
+    	DELPHI_HP_PlayTBMonitor(DelphiHp, 1, 1);
+    	DELPHI_HP_PlayChMonitor(DelphiHp, 0);
+    	DELPHI_HP_PlayLyMonitor(DelphiHp, 0);
+   finally
+    	DeleteDelphiHp(DelphiHp);
+   end;
+   
+ */
